@@ -37,28 +37,9 @@
     position:fixed;top:0px;left :0rem
 
  }
-.mainContainer{
-  /* transform: scale(0.7)   ;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction:column;
-  justify-content: center;
-  column-gap: 5rem;
-  margin-left:-10px; */
-}
+
 .alldata{
     width: 100%;
-    /* width: 100%;
-    display: grid;
-    grid-template-columns: row;
-    column-gap: 5rem;
-    row-gap: 5rem;    */
-    /* display:'grid'; */
-    /* grid-template-rows: auto; */
-    /* row-gap: 2rem; */
-
  
 }
 .image{
