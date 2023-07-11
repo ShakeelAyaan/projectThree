@@ -1,4 +1,3 @@
-import styled from '@emotion/styled'
 import { Divider, Grid, Typography } from '@mui/material'
 import {imageURL} from './FlipkartData'
 export const BannerDown3 = () => {
