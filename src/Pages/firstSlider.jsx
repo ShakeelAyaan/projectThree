@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+// import styled from '@emotion/styled';
 import React from 'react'
 import Carousel from 'react-multi-carousel'
 import { bannerData } from './FlipkartData';
@@ -11,11 +11,6 @@ export const FirstSlider = () => {
   // }
   // autoPlay={this.props.deviceType !== "mobile" ? true : false}
 
-    const Image = styled('img')`
-    width:100%;
-    height:100px
-        i
-    `
     const responsive = {
        
         desktop: {
@@ -48,7 +43,7 @@ export const FirstSlider = () => {
     {
         bannerData.map((event , id)=>{
             return(
-                <Image className='images' src={event.url}  alt='' key={id}/>
+                <img style={{width:"100%" , height:"130px"}} className='images' src={event.url}  alt='imges' key={id}/>
             )
         })
     }
