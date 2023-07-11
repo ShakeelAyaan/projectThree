@@ -1,6 +1,5 @@
 
 import { Button, Divider } from '@mui/material'
-import React from 'react'
 const AddtoCardDisplay2 = ({ price, Fprice, qunt, Fquantity }) => {
   let total_price = price + Fprice;
   let total_quantity = qunt + Fquantity;

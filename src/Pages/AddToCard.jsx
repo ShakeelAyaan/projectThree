@@ -1,7 +1,4 @@
-// import { Box } from '@mui/system'
-// import React, {  useState } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-// import { useParams,useNavigate } from 'react-router-dom'
 import { Typography ,Button, Divider } from '@mui/material'
 import {  fouraction,    } from '../Redux/action'
 import { DECREAMENT, INCREAMENT, REMOVEITEM } from '../Redux/actionType'

@@ -1,5 +1,3 @@
-// import styled from '@emotion/styled';
-import React from 'react'
 import Carousel from 'react-multi-carousel'
 import { bannerData } from './FlipkartData';
 import "react-multi-carousel/lib/styles.css";
