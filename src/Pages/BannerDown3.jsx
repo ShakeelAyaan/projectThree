@@ -4,8 +4,7 @@ export const BannerDown3 = () => {
 
   const IMG = {
     width: "100%" ,
-    height: "250px" ,
-    background: "red"
+    height: "250px",
   }
     
 
