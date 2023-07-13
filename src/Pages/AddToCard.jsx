@@ -43,14 +43,7 @@ const AddToCard = () => {
 
   return (
     
-    <div className='Addtocard1' style={{
-      marginTop: '9rem',
-      backgroundColor:'#fffff',
-      display: 'flex',
-      justifyContent: "center",
-      alignItems:'center',
-      width: '100vw',
-    }}>
+    <div className='Addtocard1'>
         
       
       <div className='Addtocard' >

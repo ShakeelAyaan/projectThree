@@ -1,4 +1,4 @@
-
+ 
 .inpIco{
  
    display: flex;
@@ -45,7 +45,8 @@ padding-left: 1rem;
   position: fixed;
   top:0px;
   z-index:9999; 
-  
+   /* height: "60px", */
+
 }
 .spd{
   position: absolute;

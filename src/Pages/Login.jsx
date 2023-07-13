@@ -45,21 +45,7 @@ const Login = () => {
       <>
       <form method='post' className='Login'>
        
-        <Card
-          className='child'
-          sx={{
-            py: 2,
-            // display: 'grid',
-            gap: 2,
-            alignItems: 'center',
-            flexWrap: 'wrap',
-            width: '300px',
-            display: 'flex',
-            justifyContent: "space-around",
-            mt: "105px",
-          }}
-        
-        >
+        <Card  className='child' >
           <Typography variant='text' component={'h1'} sx={{ display: 'flex',fontStyle:'italic' }}>
             <Avatar sx={{ backgroundColor: 'black' }} src="/broken-image.jpg" alt='brokenImg'/>
             Login

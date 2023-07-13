@@ -52,11 +52,7 @@ const NewNavbar = (props) => {
 
  
     return (
-      <Toolbar className='twoGrid' style={{
-        display: "flex", justifyContent: "space-between"
-        , background: "#0990f6", width: '100%', height: "60px",
-        position: "fixed", top: "0px", zIndex: "9999" ,
-      }} >
+      <Toolbar className='twoGrid'  >
           
         <div className='leftComp'>
           

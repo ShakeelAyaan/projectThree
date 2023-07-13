@@ -1,6 +1,12 @@
 
       .Addtocard1{
         width: 100vw;
+        margin-top : 9rem;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        width: 100vw;
+        background-color: #ffff;
       }
 
 
