@@ -33,7 +33,10 @@
     "@types/styled-components": "^5.1.14",
     "vite": "^4.3.9"
   },
-  "resolutions": {
-    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
-  }
-} 
+//   "resolutions": {
+//     "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
+//   }
+// } 
+"paths": {
+  "@mui/styled-engine": [ "./node_modules/@mui/styled-engine-sc" ]
+}
