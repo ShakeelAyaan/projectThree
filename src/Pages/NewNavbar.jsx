@@ -49,10 +49,25 @@ const NewNavbar = (props) => {
   //   )
   // }
       
-
+  // const CssObj = {
+  //   display: "flex" ,
+  //   justifyContent: "spaceBetween" ,
+  //   backgroundColor: "#0990f6 ",
+  //   height: "80px" ,
+  //   width: "100% ",
+  //   position: "fixed" ,
+  //   top:"0px ",
+  //   Zindex:9999,
+  //   position: "absolute",
+  //   top:"0px"
+  //   }
  
     return (
-      <Toolbar className='twoGrid'  >
+      <Toolbar className='twoGrid' style={{
+        display: "flex", justifyContent: "space-between"
+        , background: "#0990f6", width: '100%', height: "60px",
+        position: "fixed", top: "0px", zIndex: "9999" ,
+      }} >
           
         <div className='leftComp'>
           

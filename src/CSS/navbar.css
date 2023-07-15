@@ -36,7 +36,7 @@ padding-left: 1rem;
   pointer-events:visibleStroke;
   color:white;
 }
-.twoGrid{
+/* .twoGrid{
   display: flex;
   justify-content: space-between;
   background-color: #0990f6;
@@ -45,9 +45,7 @@ padding-left: 1rem;
   position: fixed;
   top:0px;
   z-index:9999; 
-   /* height: "60px", */
-
-}
+} */
 .spd{
   position: absolute;
     top: 60px ;
@@ -70,7 +68,7 @@ padding-left: 1rem;
   align-items: center;
   height: 33px;
    width:70%;
-   max-width:calc(100% - 100px)
+   /* max-width:calc(100% - 100px) */
  /* background-color: white; */
  } 
  .inputText{
